@@ -4,7 +4,7 @@ export function httpsTransform(link: string){
     hasHttps ? link : `https://${link}`;
 }
 
-export function formatToBRL(money: numbe){
+export function formatToBRL(money: number){
     const formattedNumber = new Intl.NumberFormat('pt-BR', {
         style: 'currency',
         currency: 'BRL',
